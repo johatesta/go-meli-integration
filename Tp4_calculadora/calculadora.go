@@ -8,5 +8,8 @@ import (
 func op{
 	var op operandos
 
-	op= 
+	op=  Operaciones(5,8)
+	fmt.Printf("Resultados: " +"%v", op)
+	op= Desvia(op,3)
+	fmt.Printf("\nResultados DESVIADOS: ","%v",op)
 }
